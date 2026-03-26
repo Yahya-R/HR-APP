@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premier Staffing Group Case Study — MyHR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .cs-header{padding:140px 24px 48px;max-width:760px;margin:0 auto}
+    .cs-header .back-link{font-size:.85rem;color:#4f46e5;text-decoration:none;font-weight:500;display:inline-flex;align-items:center;gap:6px;margin-bottom:24px}
+    .cs-header .back-link:hover{text-decoration:underline}
+    .cs-badge{display:inline-block;font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#4f46e5;background:#eef2ff;padding:4px 12px;border-radius:6px;margin-bottom:14px}
+    .cs-header h1{font-size:2rem;font-weight:800;line-height:1.2;margin-bottom:12px}
+    .cs-header .cs-meta{font-size:.9rem;color:#94a3b8}
+    .results-box{background:linear-gradient(135deg,#4f46e5,#7c3aed);border-radius:14px;padding:32px;margin:0 auto 48px;max-width:760px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;color:#fff}
+    .results-box .r-item{text-align:center}
+    .results-box .r-num{font-size:1.8rem;font-weight:800;display:block}
+    .results-box .r-label{font-size:.75rem;opacity:.8;margin-top:4px}
+    .cs-body{max-width:760px;margin:0 auto;padding:0 24px 96px}
+    .cs-body h2{font-size:1.3rem;font-weight:700;margin:36px 0 14px;color:#0f172a}
+    .cs-body p{font-size:1rem;color:#475569;line-height:1.8;margin-bottom:18px}
+    .cs-body ul{margin:0 0 18px 24px;color:#475569;line-height:1.8}
+    .cs-body li{margin-bottom:6px}
+    .cs-body blockquote{border-left:3px solid #4f46e5;padding:16px 24px;margin:28px 0;background:#f8fafc;border-radius:0 8px 8px 0}
+    .cs-body blockquote p{color:#475569;font-style:italic;margin:0}
+    .cs-cta{background:#eef2ff;border-radius:12px;padding:32px;text-align:center;margin-top:48px}
+    .cs-cta p{color:#475569;margin-bottom:16px}
+    @media(max-width:600px){.results-box{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+  <nav class="navbar"><div class="nav-inner"><a href="../index.html" class="logo">MyHR</a><div class="nav-links" id="navLinks"><a href="../index.html#how-it-works">How It Works</a><a href="../case-studies.html">Case Studies</a><a href="../blog.html">Resources</a><a href="../about.html">About</a></div><a href="../index.html#cta" class="nav-cta">Get Started</a><button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button></div></nav>
+
+  <div class="cs-header">
+    <a href="../case-studies.html" class="back-link">&larr; All Case Studies</a>
+    <span class="cs-badge">Warehouse & Logistics</span>
+    <h1>Premier Staffing Group fixed their overnight coverage nightmare across three states.</h1>
+    <p class="cs-meta">TX, AZ, NV &middot; 6,000+ workers &middot; Warehouse & logistics &middot; Multi-state operation</p>
+  </div>
+
+  <div class="results-box">
+    <div class="r-item"><span class="r-num">89%</span><span class="r-label">Night Fill Rate</span></div>
+    <div class="r-item"><span class="r-num">73%</span><span class="r-label">Less Weekend OT</span></div>
+    <div class="r-item"><span class="r-num">3.1 min</span><span class="r-label">Avg Fill Time</span></div>
+    <div class="r-item"><span class="r-num">$2.1M</span><span class="r-label">Revenue Recovery</span></div>
+  </div>
+
+  <div class="cs-body">
+    <h2>The Company</h2>
+    <p>Premier Staffing Group is one of the largest independent warehouse and logistics staffing firms in the Southwest. Operating across Texas, Arizona, and Nevada, they place over 6,000 workers in fulfillment centers, distribution hubs, and last-mile logistics operations for clients including Amazon 3PLs, FedEx Ground contractors, and regional grocery distributors. Annual revenue: $112M.</p>
+
+    <h2>The Challenge</h2>
+    <p>Premier's Achilles heel was overnight and weekend coverage. Warehouse operations run 24/7, but their staffing operation effectively didn't. The numbers told the story:</p>
+    <ul>
+      <li><strong>Overnight fill rate:</strong> 51% — meaning nearly half of all night shift call-outs went unfilled</li>
+      <li><strong>Weekend coordinator overtime:</strong> $14,200/month — three coordinators rotated on-call weekends, each averaging 18 hours of overtime per month</li>
+      <li><strong>Two coordinator resignations</strong> in Q2 2025, both citing burnout from overnight on-call rotations as the primary reason</li>
+      <li><strong>Client escalations:</strong> 23 formal complaints in a single quarter from Amazon 3PL clients about unfilled night shifts</li>
+      <li>Average time to fill an overnight call-out: <strong>52 minutes</strong> (vs. 28 minutes during business hours)</li>
+    </ul>
+    <p>"Night shifts were our reputation killer," says David Ramirez, VP of Operations. "We'd win a contract based on our daytime performance, and then the client would see the overnight numbers and start shopping for a replacement. We lost two Amazon 3PL contracts in six months for exactly this reason."</p>
+
+    <h2>The Solution</h2>
+    <p>Premier took a phased approach, starting with the specific problem that was costing them the most: overnight shifts.</p>
+    <p><strong>Phase 1 (Weeks 1-3): Overnight only.</strong> MyHR was deployed to handle all call-out outreach between 6 PM and 6 AM across Premier's Texas operations (18 sites, ~2,400 workers). The overnight on-call coordinator was kept in the loop via Slack notifications but no longer needed to make calls.</p>
+    <p><strong>Phase 2 (Weeks 4-6): Weekends.</strong> After seeing overnight results, Premier expanded to full weekend coverage across all three states. The Saturday/Sunday coordinator rotation was eliminated.</p>
+    <p><strong>Phase 3 (Weeks 7-10): Full deployment.</strong> MyHR took over initial outreach for all shifts across all sites, 24/7. Coordinators shifted to managing exceptions, client relationships, and worker retention.</p>
+
+    <h2>The Results</h2>
+    <p>Results after 90 days of full deployment:</p>
+    <ul>
+      <li><strong>Overnight fill rate:</strong> 51% → 89% — a 38-point improvement that eliminated the #1 source of client complaints</li>
+      <li><strong>Weekend coordinator overtime:</strong> $14,200/month → $3,800/month (73% reduction). No more overnight on-call rotation.</li>
+      <li><strong>Overall fill time:</strong> 31 minutes → 3.1 minutes across all shifts</li>
+      <li><strong>Revenue recovered from previously unfilled shifts:</strong> $2.1M annually</li>
+      <li><strong>Client escalations:</strong> 23 per quarter → 4 per quarter</li>
+      <li><strong>Coordinator retention:</strong> Zero resignations in the 6 months since deployment (vs. 4 in the 6 months before)</li>
+    </ul>
+
+    <blockquote>
+      <p>"The overnight transformation was almost immediate. Within the first week, we had nights where every single call-out was covered — something that hadn't happened once in the previous year. When I showed the numbers to our Amazon contacts, one of them literally said, 'What changed?' I told him we stopped making our coordinators lose sleep."</p>
+    </blockquote>
+    <p style="font-size:.9rem;color:#94a3b8;margin-top:-8px">— David Ramirez, VP of Operations, Premier Staffing Group</p>
+
+    <h2>The Ripple Effect</h2>
+    <p>The improved fill rates had a cascading positive effect across Premier's business. Two of the Amazon 3PL clients that had been considering switching vendors renewed their contracts with expanded scope. One added a second distribution center, worth $4.2M annually. Premier's coordinator team — no longer burning out — started proactively reaching out to workers for retention check-ins, reducing 90-day worker churn by 19%.</p>
+    <p>"We're a different company now," David says. "Not because we have different people — it's the same team. They're just finally able to do their jobs instead of being human auto-dialers."</p>
+
+    <div class="cs-cta">
+      <p>Overnight coverage keeping you up at night? Let's fix that.</p>
+      <a href="../index.html#cta" class="btn btn-primary">Get Started</a>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="footer-inner"><div class="footer-top"><div class="footer-brand"><span class="footer-badge">SOC 2 Compliant</span><p>&copy; 2026 MyHR Technologies, Inc.</p></div><div class="footer-cols"><div><h4>Resources</h4><a href="../blog.html">Blog</a><a href="../engineering.html">Engineering</a><a href="../case-studies.html">Case Studies</a></div><div><h4>Company</h4><a href="../about.html">About</a><a href="../support.html">Support</a><a href="../terms.html">Terms</a><a href="../privacy.html">Privacy</a></div></div></div><div class="footer-bottom"><span class="logo logo-footer">MyHR</span></div></div></footer>
+  <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — MyHR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .page-header{padding:140px 24px 48px;text-align:center;max-width:720px;margin:0 auto}
+    .page-header h1{font-size:2.4rem;font-weight:800;letter-spacing:-.03em;margin-bottom:16px}
+    .page-header p{color:#64748b;font-size:1.1rem;line-height:1.7}
+    .about-section{max-width:760px;margin:0 auto;padding:0 24px 64px}
+    .about-section h2{font-size:1.6rem;font-weight:700;margin-bottom:16px;color:#0f172a}
+    .about-section p{font-size:1rem;color:#475569;line-height:1.8;margin-bottom:20px}
+    .story-section{background:#fff;border-top:1px solid #f1f5f9;border-bottom:1px solid #f1f5f9;padding:64px 24px}
+    .story-inner{max-width:760px;margin:0 auto}
+    .team-section{padding:64px 24px}
+    .team-inner{max-width:1000px;margin:0 auto}
+    .team-inner h2{font-size:1.6rem;font-weight:700;margin-bottom:32px;text-align:center}
+    .team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+    .team-card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:28px;text-align:center}
+    .team-avatar{width:72px;height:72px;border-radius:50%;margin:0 auto 16px;background:linear-gradient(135deg,#c7d2fe,#a5b4fc)}
+    .team-card h3{font-size:1.05rem;font-weight:700;color:#0f172a;margin-bottom:4px}
+    .team-card .team-role{font-size:.85rem;color:#4f46e5;font-weight:600;margin-bottom:12px}
+    .team-card p{font-size:.88rem;color:#64748b;line-height:1.6}
+    .values-section{background:#f8fafc;padding:64px 24px}
+    .values-inner{max-width:900px;margin:0 auto}
+    .values-inner h2{font-size:1.6rem;font-weight:700;margin-bottom:32px;text-align:center}
+    .values-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:24px}
+    .value-card h3{font-size:1.05rem;font-weight:700;color:#0f172a;margin-bottom:8px}
+    .value-card p{font-size:.9rem;color:#64748b;line-height:1.6}
+    .backed-section{padding:64px 24px;text-align:center}
+    .backed-section h2{font-size:1.6rem;font-weight:700;margin-bottom:12px}
+    .backed-section p{color:#64748b;font-size:1rem;max-width:560px;margin:0 auto 24px;line-height:1.7}
+    .investor-logos{display:flex;justify-content:center;gap:40px;flex-wrap:wrap;color:#94a3b8;font-weight:600;font-size:1rem}
+    .locations{display:flex;justify-content:center;gap:48px;margin-top:32px;flex-wrap:wrap}
+    .location{text-align:center}
+    .location strong{display:block;font-size:.95rem;color:#0f172a}
+    .location span{font-size:.85rem;color:#94a3b8}
+  </style>
+</head>
+<body>
+  <nav class="navbar"><div class="nav-inner"><a href="index.html" class="logo">MyHR</a><div class="nav-links" id="navLinks"><a href="index.html#how-it-works">How It Works</a><a href="case-studies.html">Case Studies</a><a href="blog.html">Resources</a><a href="about.html">About</a></div><a href="index.html#cta" class="nav-cta">Get Started</a><button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button></div></nav>
+
+  <div class="page-header">
+    <h1>About MyHR</h1>
+    <p>We're building the infrastructure that keeps America's workforce running — one filled shift at a time.</p>
+  </div>
+
+  <div class="story-section">
+    <div class="story-inner">
+      <h2>Our Story</h2>
+      <p>MyHR started with a 4 AM phone call.</p>
+      <p>In 2023, our co-founders Amir Kassar and Rachel Drummond were running operations at two different staffing agencies — Amir in industrial staffing in Ohio, Rachel in logistics staffing in Texas. They didn't know each other yet, but they were living the same nightmare every morning: phones ringing before dawn, coordinators scrambling to fill call-out shifts, clients threatening to pull contracts, and a constant churn of burned-out scheduling staff.</p>
+      <p>The breaking point for Amir came when his best coordinator — a woman who'd been with the agency for six years — quit on a Tuesday morning, citing the 4 AM calls as the reason she couldn't do it anymore. "She wasn't bad at her job," Amir says. "Her job was bad at being a job."</p>
+      <p>Rachel's moment was different. She watched her team spend 340 hours in a single month making phone calls that went to voicemail. "We were paying people to leave messages that nobody listened to. That's not a staffing operation — that's a broken system."</p>
+      <p>They met at SIA's Staffing Industry Executive Forum in early 2024 and realized they were describing the same problem from different ends of the country. By March, they'd recruited a founding engineering team and started building MyHR — an AI system that could do the repetitive outreach work instantly and simultaneously, so human coordinators could focus on the work that actually requires a human.</p>
+      <p>Today, MyHR fills thousands of shifts every week for staffing agencies across the U.S. Our AI agents handle the initial outreach — calls, texts, and messages — while coordinators focus on building relationships with workers and clients. The shifts get filled faster, the coordinators don't burn out, and the agencies grow.</p>
+    </div>
+  </div>
+
+  <div class="team-section">
+    <div class="team-inner">
+      <h2>Leadership</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar"></div>
+          <h3>Amir Kassar</h3>
+          <div class="team-role">Co-Founder & CEO</div>
+          <p>Former VP of Operations at a 3,000-worker industrial staffing agency. 12 years in workforce management. Started as a staffing coordinator himself.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"></div>
+          <h3>Rachel Drummond</h3>
+          <div class="team-role">Co-Founder & COO</div>
+          <p>Ran operations for a top-20 logistics staffing firm across 4 states. Built the playbook for high-volume shift management before automating it.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"></div>
+          <h3>Kevin Zhao</h3>
+          <div class="team-role">CTO</div>
+          <p>Previously led the real-time communications team at Twilio. Before that, built distributed systems at Stripe. MS in CS from Stanford.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"></div>
+          <h3>Diana Ortiz</h3>
+          <div class="team-role">VP of Product</div>
+          <p>Former product lead at Gusto, where she built the workforce scheduling module. Background in HR tech and labor compliance software.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"></div>
+          <h3>Marcus Bell</h3>
+          <div class="team-role">VP of Sales</div>
+          <p>15 years selling into the staffing industry. Previously at Bullhorn and TempWorks. Knows every pain point because he's heard them all firsthand.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar"></div>
+          <h3>Sarah Lindgren</h3>
+          <div class="team-role">Head of Customer Success</div>
+          <p>Former staffing agency owner (sold in 2022). Understands the customer because she was the customer. Built the white-glove onboarding program.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="values-section">
+    <div class="values-inner">
+      <h2>What We Believe</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>Workers First</h3>
+          <p>Every feature we build gets evaluated through the lens of the worker experience. If it makes life worse for workers, it doesn't ship — even if agencies would buy it.</p>
+        </div>
+        <div class="value-card">
+          <h3>Replace Tasks, Not People</h3>
+          <p>AI should eliminate the work that burns people out, not the people doing the work. Our best customers have zero layoffs — they have happier, more productive teams.</p>
+        </div>
+        <div class="value-card">
+          <h3>Earn Trust with Data</h3>
+          <p>We handle sensitive worker information. SOC 2 Type II is our baseline, not our ceiling. We're transparent about what we collect, why, and how long we keep it.</p>
+        </div>
+        <div class="value-card">
+          <h3>Ship and Measure</h3>
+          <p>We release weekly, measure everything, and share the results publicly in our engineering changelog. If something doesn't move the needle, we kill it.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="backed-section">
+    <h2>Backed By</h2>
+    <p>MyHR raised a $18M Series A in October 2025, led by Gradient Ventures with participation from Workforce Capital, Staffing Ventures, and Operator Collective.</p>
+    <div class="investor-logos">
+      <span>Gradient Ventures</span>
+      <span>Workforce Capital</span>
+      <span>Staffing Ventures</span>
+      <span>Operator Collective</span>
+    </div>
+    <div class="locations">
+      <div class="location"><strong>San Francisco, CA</strong><span>Headquarters</span></div>
+      <div class="location"><strong>Austin, TX</strong><span>Engineering</span></div>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="footer-inner"><div class="footer-top"><div class="footer-brand"><span class="footer-badge">SOC 2 Compliant</span><p>&copy; 2026 MyHR Technologies, Inc.</p></div><div class="footer-cols"><div><h4>Resources</h4><a href="blog.html">Blog</a><a href="engineering.html">Engineering</a><a href="case-studies.html">Case Studies</a></div><div><h4>Company</h4><a href="about.html">About</a><a href="support.html">Support</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></div></div></div><div class="footer-bottom"><span class="logo logo-footer">MyHR</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

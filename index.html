@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyHR — AI Voice Agents for Staffing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Calendly badge widget -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">MyHR</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#how-it-works">How It Works</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="blog.html">Resources</a>
+        <a href="about.html">About</a>
+      </div>
+      <a href="#" class="nav-cta" onclick="openCalendly(); return false;">Book a Demo</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-badge">AI Voice Agents for Staffing</div>
+    <h1>Fill Every Open Shift<br />in Under 10 Minutes</h1>
+    <p class="hero-sub">Meet Sabrina — MyHR's AI agent that calls, texts, and messages every eligible worker to fill shifts in minutes, not hours.</p>
+    <a href="#" class="btn btn-primary" onclick="openCalendly(); return false;">Book a Demo</a>
+    <div class="hero-trust-row">
+      <span class="trust-item"><svg width="16" height="16" fill="none" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8" fill="#34d399"/><path d="M5 8.5l2 2 4-4.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> SOC 2 Compliant</span>
+      <span class="trust-item"><svg width="16" height="16" fill="none" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8" fill="#34d399"/><path d="M5 8.5l2 2 4-4.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Integrates with your scheduling system</span>
+      <span class="trust-item"><svg width="16" height="16" fill="none" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8" fill="#34d399"/><path d="M5 8.5l2 2 4-4.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> White glove support</span>
+    </div>
+    <p class="early-access-note">Now onboarding select agencies for our early access program</p>
+  </section>
+
+  <!-- ===== VIDEO / DEMO ===== -->
+  <section class="demo-section">
+    <div class="demo-full">
+      <div class="demo-video-full">
+        <video id="demoVideo" controls playsinline poster="">
+          <source src="demo.mp4" type="video/mp4" />
+          <source src="demo.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay" id="videoOverlay">
+          <svg width="72" height="72" fill="none" viewBox="0 0 72 72"><circle cx="36" cy="36" r="36" fill="rgba(255,255,255,.2)"/><polygon points="30,22 30,50 52,36" fill="#fff"/></svg>
+          <p>See MyHR in Action</p>
+        </div>
+      </div>
+      <div class="demo-cta-row">
+        <a href="#" class="btn btn-primary btn-lg" onclick="openCalendly(); return false;">Book a Demo</a>
+        <p>No commitment &middot; 30 minutes &middot; See the AI work in real time</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CASE STUDY ===== -->
+  <section class="case-study" id="case-studies">
+    <div class="case-study-inner">
+      <span class="case-study-tag">Case Study</span>
+      <p class="case-study-client">A mid-size industrial staffing agency &middot; 2,200 workers</p>
+      <h2>8,500 shifts a month filled without the scramble.</h2>
+      <p class="case-study-body">The operations team triggers MyHR to call or text up to 80 workers at once, gathers availability within minutes, and lets confirmations run in the background. Night and weekend coordinators lean on MyHR so coverage keeps moving while they focus on client relationships.</p>
+      <a href="case-studies/allied-workforce.html" class="case-study-link">Read the full case study &#x2197;</a>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIAL ===== -->
+  <section class="testimonial">
+    <div class="testimonial-inner">
+      <blockquote>
+        &ldquo;Before it would take over 30 minutes; with MyHR it's under 5 minutes to cover a shift&mdash;while the team keeps working on other things.&rdquo;
+      </blockquote>
+      <div class="testimonial-author">
+        <div>
+          <strong>Scheduling Lead</strong><br />
+          <span>Mid-size Industrial Staffing Agency</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FINAL CTA ===== -->
+  <section class="final-cta" id="cta">
+    <h2>Double Your Scheduler Productivity, and Get Your Nights and Weekends Back.</h2>
+    <p>Let's talk about how MyHR can help your team.</p>
+    <a href="#" class="btn btn-primary" onclick="openCalendly(); return false;">Book a Demo</a>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="how-it-works">
+    <h2>Frequently asked questions</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>How quickly does MyHR start contacting workers after a call-out?</summary>
+        <p>Within seconds. As soon as a shift opens, MyHR begins reaching out to every eligible worker simultaneously via call, text, and messaging apps.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can we set rules for who gets contacted first?</summary>
+        <p>Absolutely. You can prioritize by seniority, proximity, skill set, overtime status, or any custom rule your team needs.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What happens if multiple workers respond?</summary>
+        <p>MyHR automatically ranks responses based on your rules and confirms the best match. Runners-up are released instantly so they aren't left waiting.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Does MyHR integrate with our existing scheduling system?</summary>
+        <p>Yes. MyHR connects with all major workforce management and scheduling platforms including Kronos, ADP, Deputy, and more.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can our team still be involved in the process if needed?</summary>
+        <p>Of course. MyHR keeps your coordinators in the loop with real-time updates and lets them override or step in at any point.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How much time does this actually save?</summary>
+        <p>Most teams report going from 30+ minutes per shift fill down to under 5 minutes — freeing up hours every single day.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can I tailor MyHR to our team's communication style?</summary>
+        <p>Yes. You can customize scripts, tone, and language. MyHR can also learn from past conversations to better match how your team communicates.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="about">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-badge">SOC 2 Compliant</span>
+          <p>&copy; 2026 MyHR Technologies, Inc.</p>
+        </div>
+        <div class="footer-cols">
+          <div>
+            <h4>Resources</h4>
+            <a href="blog.html">Blog</a>
+            <a href="engineering.html">Engineering</a>
+            <a href="case-studies.html">Case Studies</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="about.html">About</a>
+            <a href="support.html">Support</a>
+            <a href="terms.html">Terms</a>
+            <a href="privacy.html">Privacy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="logo logo-footer">MyHR</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script src="script.js"></script>
+</body>
+</html>

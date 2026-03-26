@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greenfield Industrial Staffing Case Study — MyHR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .cs-header{padding:140px 24px 48px;max-width:760px;margin:0 auto}
+    .cs-header .back-link{font-size:.85rem;color:#4f46e5;text-decoration:none;font-weight:500;display:inline-flex;align-items:center;gap:6px;margin-bottom:24px}
+    .cs-header .back-link:hover{text-decoration:underline}
+    .cs-badge{display:inline-block;font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#4f46e5;background:#eef2ff;padding:4px 12px;border-radius:6px;margin-bottom:14px}
+    .cs-header h1{font-size:2rem;font-weight:800;line-height:1.2;margin-bottom:12px}
+    .cs-header .cs-meta{font-size:.9rem;color:#94a3b8}
+    .results-box{background:linear-gradient(135deg,#4f46e5,#7c3aed);border-radius:14px;padding:32px;margin:0 auto 48px;max-width:760px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;color:#fff}
+    .results-box .r-item{text-align:center}
+    .results-box .r-num{font-size:1.8rem;font-weight:800;display:block}
+    .results-box .r-label{font-size:.75rem;opacity:.8;margin-top:4px}
+    .cs-body{max-width:760px;margin:0 auto;padding:0 24px 96px}
+    .cs-body h2{font-size:1.3rem;font-weight:700;margin:36px 0 14px;color:#0f172a}
+    .cs-body p{font-size:1rem;color:#475569;line-height:1.8;margin-bottom:18px}
+    .cs-body ul{margin:0 0 18px 24px;color:#475569;line-height:1.8}
+    .cs-body li{margin-bottom:6px}
+    .cs-body blockquote{border-left:3px solid #4f46e5;padding:16px 24px;margin:28px 0;background:#f8fafc;border-radius:0 8px 8px 0}
+    .cs-body blockquote p{color:#475569;font-style:italic;margin:0}
+    .cs-cta{background:#eef2ff;border-radius:12px;padding:32px;text-align:center;margin-top:48px}
+    .cs-cta p{color:#475569;margin-bottom:16px}
+    .warning-box{background:#fef2f2;border:1px solid #fecaca;border-radius:10px;padding:20px 24px;margin:24px 0}
+    .warning-box p{color:#991b1b;font-size:.95rem;margin:0;line-height:1.6}
+    @media(max-width:600px){.results-box{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+  <nav class="navbar"><div class="nav-inner"><a href="../index.html" class="logo">MyHR</a><div class="nav-links" id="navLinks"><a href="../index.html#how-it-works">How It Works</a><a href="../case-studies.html">Case Studies</a><a href="../blog.html">Resources</a><a href="../about.html">About</a></div><a href="../index.html#cta" class="nav-cta">Get Started</a><button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button></div></nav>
+
+  <div class="cs-header">
+    <a href="../case-studies.html" class="back-link">&larr; All Case Studies</a>
+    <span class="cs-badge">Manufacturing Staffing</span>
+    <h1>Greenfield Industrial eliminated compliance violations entirely — and dropped fill time from 45 minutes to 6.</h1>
+    <p class="cs-meta">Midwest &middot; 3,100 workers &middot; 4 manufacturing plants &middot; Automotive, aerospace, food-grade</p>
+  </div>
+
+  <div class="results-box">
+    <div class="r-item"><span class="r-num">0</span><span class="r-label">Violations (9 mo)</span></div>
+    <div class="r-item"><span class="r-num">6 min</span><span class="r-label">Avg Fill Time</span></div>
+    <div class="r-item"><span class="r-num">$430K</span><span class="r-label">Penalty Savings</span></div>
+    <div class="r-item"><span class="r-num">100%</span><span class="r-label">Cert Compliance</span></div>
+  </div>
+
+  <div class="cs-body">
+    <h2>The Company</h2>
+    <p>Greenfield Industrial Staffing has been placing skilled manufacturing workers across the Midwest since 2008. With 3,100 active workers spread across four plants — two automotive (Tier 1 suppliers to GM and Stellantis), one aerospace components manufacturer, and one FDA-regulated food processing facility — Greenfield operates in one of the most compliance-intensive corners of the staffing industry.</p>
+    <p>Every worker must maintain current certifications: OSHA 10 or OSHA 30 (depending on role), forklift operator licenses, clean room clearances for the aerospace plant, food handler certifications for the food-grade facility, and up-to-date drug testing. A single expired certification can trigger an OSHA fine, a client audit failure, or — worst case — a safety incident.</p>
+
+    <h2>The Challenge</h2>
+    <p>In 2024, Greenfield's compliance record fell apart:</p>
+
+    <div class="warning-box">
+      <p><strong>3 compliance violations in 12 months:</strong> Two workers placed at the aerospace plant without current OSHA 30 certifications. One worker assigned to the food processing facility with an expired food handler card. Total fines: $180,000. Total client trust lost: immeasurable.</p>
+    </div>
+
+    <ul>
+      <li>Certification data was tracked in a combination of <strong>Excel spreadsheets, Bullhorn notes fields, and a coordinator's memory</strong>. No single source of truth.</li>
+      <li>A near-miss safety incident: a worker without current forklift certification was placed on a powered industrial truck at the GM supplier. No injury, but the client issued a formal safety stand-down and threatened contract termination.</li>
+      <li>Fill time averaged <strong>45 minutes</strong> because coordinators had to manually cross-reference certification spreadsheets before making each call. For urgent call-outs, coordinators sometimes skipped the check — which is exactly how the violations happened.</li>
+      <li>The compliance director spent <strong>20 hours per week</strong> auditing placement records retroactively — catching problems after the fact instead of preventing them.</li>
+    </ul>
+    <p>"The violations weren't happening because our coordinators didn't care," says Robert Tanaka, Compliance Director. "They were happening because we'd built a system where doing the right thing — checking every certification before every placement — took so long that people cut corners under pressure. You can't blame the people when the process is the problem."</p>
+
+    <h2>The Solution</h2>
+    <p>Greenfield deployed MyHR with a specific focus on the eligibility engine — the component that determines which workers can be contacted for which shifts:</p>
+    <ul>
+      <li><strong>Certification sync:</strong> All certification data was imported from Bullhorn and the spreadsheets into MyHR's structured database. Each certification type was mapped to specific sites and roles with hard expiration enforcement.</li>
+      <li><strong>Automatic exclusion:</strong> Workers with any expired or missing required certification are automatically excluded from outreach for affected shifts. There is no override without compliance director approval — and every override is logged.</li>
+      <li><strong>Proactive expiration alerts:</strong> Workers receive automated reminders 30, 14, and 7 days before any certification expires, with instructions for renewal. Coordinators receive alerts too, so they can help workers schedule renewals.</li>
+      <li><strong>Drug test currency:</strong> Drug test results (pass/fail only — MyHR doesn't store detailed medical data) are tracked with facility-specific validity periods. Workers whose tests are expiring are flagged before they become ineligible.</li>
+    </ul>
+
+    <h2>The Results</h2>
+    <p>Nine months after deployment:</p>
+    <ul>
+      <li><strong>Compliance violations: 3 in 2024 → 0 in 9 months of MyHR operation</strong></li>
+      <li><strong>Fill time:</strong> 45 min → 6 min (certification checks that took 8-12 minutes per worker happen instantly)</li>
+      <li><strong>Penalty savings:</strong> $430K in avoided fines (extrapolated from 2024 violation rate)</li>
+      <li><strong>Compliance director audit time:</strong> 20 hours/week → 4 hours/week (most auditing is now automated)</li>
+      <li><strong>Certification renewal rate:</strong> 78% → 96% (proactive reminders dramatically reduced expirations)</li>
+      <li><strong>Client audit results:</strong> Passed all four quarterly client audits with zero findings for the first time in company history</li>
+    </ul>
+
+    <blockquote>
+      <p>"For the first time in my career, I can guarantee — not hope, guarantee — that every worker on every shift has every required certification. The system won't let it happen any other way. That near-miss at the GM plant haunted me for months. It can't happen now. I sleep better."</p>
+    </blockquote>
+    <p style="font-size:.9rem;color:#94a3b8;margin-top:-8px">— Robert Tanaka, Compliance Director, Greenfield Industrial Staffing</p>
+
+    <h2>The Client Impact</h2>
+    <p>Greenfield's four plant clients all renewed their contracts in 2025-2026, with two expanding coverage to additional shifts. The aerospace manufacturer — the most compliance-sensitive client — specifically cited Greenfield's "transformed compliance infrastructure" in their vendor evaluation. The GM Tier 1 supplier upgraded Greenfield from "conditional" to "preferred" vendor status, unlocking access to additional plant locations.</p>
+
+    <div class="cs-cta">
+      <p>Compliance shouldn't depend on memory. See how MyHR's eligibility engine works.</p>
+      <a href="../index.html#cta" class="btn btn-primary">Get Started</a>
+    </div>
+  </div>
+
+  <footer class="footer"><div class="footer-inner"><div class="footer-top"><div class="footer-brand"><span class="footer-badge">SOC 2 Compliant</span><p>&copy; 2026 MyHR Technologies, Inc.</p></div><div class="footer-cols"><div><h4>Resources</h4><a href="../blog.html">Blog</a><a href="../engineering.html">Engineering</a><a href="../case-studies.html">Case Studies</a></div><div><h4>Company</h4><a href="../about.html">About</a><a href="../support.html">Support</a><a href="../terms.html">Terms</a><a href="../privacy.html">Privacy</a></div></div></div><div class="footer-bottom"><span class="logo logo-footer">MyHR</span></div></div></footer>
+  <script src="../script.js"></script>
+</body>
+</html>
