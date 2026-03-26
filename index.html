@@ -10,6 +10,10 @@
   <link rel="icon" href="favicon.ico" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <link rel="stylesheet" href="styles.css" />
+  <!-- Microsoft Clarity — replace YOUR_CLARITY_ID with your project ID from clarity.microsoft.com -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","YOUR_CLARITY_ID");
+  </script>
   <!-- Calendly badge widget -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 </head>
@@ -46,6 +50,7 @@
   <!-- ===== VIDEO / DEMO ===== -->
   <section class="demo-section">
     <div class="demo-full">
+      <h2 class="demo-heading">See Sabrina in Action</h2>
       <div class="demo-video-full">
         <video id="demoVideo" controls playsinline poster="">
           <source src="demo.mp4" type="video/mp4" />
@@ -54,7 +59,7 @@
         </video>
         <div class="video-overlay" id="videoOverlay">
           <svg width="72" height="72" fill="none" viewBox="0 0 72 72"><circle cx="36" cy="36" r="36" fill="rgba(255,255,255,.2)"/><polygon points="30,22 30,50 52,36" fill="#fff"/></svg>
-          <p>See MyHR in Action</p>
+          <p>Watch the demo</p>
         </div>
       </div>
       <div class="demo-cta-row">
@@ -137,7 +142,8 @@
     <div class="footer-inner">
       <div class="footer-top">
         <div class="footer-brand">
-          <p>&copy; 2026 MyHR Technologies, Inc.</p>
+          <span class="logo" style="color:#fff;font-size:1.4rem;">MyHR</span>
+          <p style="margin-top:8px;">AI-powered shift filling for staffing agencies.</p>
         </div>
         <div class="footer-cols">
           <div>
@@ -145,10 +151,16 @@
             <a href="blog.html">Blog</a>
             <a href="engineering.html">Engineering</a>
           </div>
+          <div>
+            <h4>Product</h4>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#" onclick="openCalendly(); return false;">Book a Demo</a>
+          </div>
         </div>
       </div>
+      <div class="footer-divider"></div>
       <div class="footer-bottom">
-        <span class="logo logo-footer">MyHR</span>
+        <p class="footer-legal">Sticker Commerce Inc.&copy; &middot; All rights reserved.</p>
         <p class="made-with-love">Made with ❤️ in New York City</p>
       </div>
     </div>
